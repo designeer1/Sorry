@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Sorry My Love</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            background: linear-gradient(to right, #000000, #1c1c1c);
+            font-family: 'Segoe UI', Arial, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            color: #ffffff;
+        }
+
+        .letter {
+            background: rgba(255, 255, 255, 0.08);
+            backdrop-filter: blur(10px);
+            padding: 40px;
+            width: 420px;
+            border-radius: 20px;
+            box-shadow: 0 0 30px rgba(255, 0, 100, 0.4);
+            text-align: center;
+        }
+
+        h1 {
+            color: #ff4d6d;
+            margin-bottom: 20px;
+        }
+
+        p {
+            font-size: 16px;
+            line-height: 1.8;
+            color: #f1f1f1;
+        }
+
+        .heart {
+            font-size: 28px;
+            animation: heartbeat 1.5s infinite;
+            color: #ff4d6d;
+        }
+
+        @keyframes heartbeat {
+            0% { transform: scale(1); }
+            25% { transform: scale(1.1); }
+            50% { transform: scale(1); }
+            75% { transform: scale(1.1); }
+            100% { transform: scale(1); }
+        }
+
+        .signature {
+            margin-top: 25px;
+            font-weight: bold;
+            color: #ff4d6d;
+        }
+
+        audio {
+            display: none;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Background Music -->
+    <audio autoplay loop>
+        <!-- Replace below link with Mann Mera mp3 link -->
+        <source src="mannmera.mp3" type="audio/mpeg">
+    </audio>
+
+    <div class="letter">
+        <h1>I'm Truly Sorry ❤️</h1>
+        <p>
+            My love,<br><br>
+            I never meant to hurt you. 
+            Every moment without your smile feels incomplete. 
+            You are my peace, my happiness, my everything. 
+            Please forgive me and let me fix what I broke. 
+            I promise to love you more, respect you more, and cherish you forever.
+        </p>
+        <div class="heart">❤️</div>
+        <div class="signature">
+            Regards,<br>
+            Kalyan
+        </div>
+    </div>
+
+</body>
+</html>
